@@ -147,6 +147,19 @@ const header = () => {
         </div>
 
         <div className="component-block--items ui-elements">
+          <p>
+            <input type="text" value="" placeholder="Normal Input" className="margin-right25"/>
+            <input type="text" value="" placeholder="Normal Input" className="focus margin-right25"/>
+            <input type="text" value="" placeholder="Disabled Input" className="margin-right25" disabled="disabled"/>
+          </p>
+          <p>
+            <input type="text" value="" placeholder="Error Input" className="error margin-right25"/>
+            <input type="text" value="" placeholder="Success Input" className="success focus margin-right25"/>
+          </p>
+          <p>
+            <textarea className="margin-right25" rows="4" cols="50" name="comment" form="usrform"></textarea>
+            <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+          </p>
           <h3 className="subtitle">Input</h3>
           <p>
             <select className="selectpicker select-teal">
@@ -166,18 +179,14 @@ const header = () => {
             </select>
 
           </p>
+          <h3 className="subtitle">Other Buttons</h3>
           <p>
-            <input type="text" value="" placeholder="Normal Input" className="margin-right25"/>
-            <input type="text" value="" placeholder="Normal Input" className="focus margin-right25"/>
-            <input type="text" value="" placeholder="Disabled Input" className="margin-right25" disabled="disabled"/>
-          </p>
-          <p>
-            <input type="text" value="" placeholder="Error Input" className="error margin-right25"/>
-            <input type="text" value="" placeholder="Success Input" className="success focus margin-right25"/>
-          </p>
-          <p>
-            <textarea className="margin-right25" rows="4" cols="50" name="comment" form="usrform"></textarea>
-            <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+            <button className="cw-btn other-default">Default</button>
+             <i className="material-icons">format_align_right</i>
+             <i className="material-icons">close</i>
+             <i className="material-icons">add</i>
+             <i className="material-icons">chevron_left</i>
+             <i className="material-icons">chevron_right</i>
           </p>
         </div>
 
